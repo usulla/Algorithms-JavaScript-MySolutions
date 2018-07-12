@@ -16,4 +16,4 @@ const binarySearch = (arr, searchEl) => {
     return binarySearch(cutArr, searchEl);
 };
 
-binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 2);
